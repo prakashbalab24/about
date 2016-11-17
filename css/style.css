@@ -1,0 +1,89 @@
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol, li{margin: 0; padding: 0;}
+p {margin: 0;padding: 0;}
+body{	
+	background:#E1BEE7;
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	background-size:cover;
+	padding:0;
+}
+.social{
+margin:100dp;
+padding:100dp;
+float:left;
+text-align:center;
+height:80px;
+width:130px;
+}
+.frame-border {
+   margin-top:-100px;
+   width: 330px;
+   height: 600px;
+   outline: none;
+   border-radius: 40px;
+   background-image:url("nexus.png");
+   background-repeat:no-repeat;
+   padding-top:62px;
+   padding-bottom:80px;
+   padding-right:16px;
+   padding-left:16px;
+   
+}
+.bottombar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   background-color:#000;  
+   height:42px;
+   width:100%;                             
+}
+.main_header{
+height:100px;
+width:100%;
+background-color:#212121;
+
+}
+.main_footer{
+height:20px;
+width:100%;
+background-color:#212121;
+
+}
+
+.main_frame {
+	
+    text-align: left;
+    padding:20px;
+}
+.main_body{
+height:400px;
+width:600px;
+float:right;
+margin:60px;
+
+}
+
+.statusbar{
+width:100%;
+height:10px;
+background-color:#000;
+}
+.container{
+padding:10px;
+height:auto;
+width:100%;
+}
+.toolbar{
+width:100%;
+height:42px;
+background-color:#7B1FA2;
+}
+.slide_frame{
+	background-color:#00BCD4;
+	height:200px;
+	width:100%;
+	box-shadow: 2px #BDBDBD;  
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Balaji Manikandan</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body bgcolor="#009bbb">
+	<center>
+<div class="statusbar"></div>
+<div class="toolbar">
+<img src="menu.png" align="left" style="padding:12px;">	
+<h3 align="left" style="padding:12px; color:#fff;" >Balaji Manikandan</h3>
+</div>
+
+
+<div class="slide_frame">
+	<div class="mySlides" style="background-color:#000011;height:200px;width:auto;">
+	</div>
+	<div class="mySlides" style="background-color:#001100;height:200px;width:auto;"></div>
+	<div class="mySlides" style="background-color:#110000;height:200px;width:auto;"></div>
+</center>
+<div class="container">
+<h3>Contact Me:</h3><br/>
+<div style="padding:20px";>
+	<div class="social">
+ <img src="github.png"><p>GitHub</p>
+ </div>
+
+<div class="social">
+<img src="twitter.png"><p>Twitter</p>
+ </div>
+<div class="social">
+<img src="linkedin.png"><p>LinkedIn</p>
+ </div>
+<div class="social">
+ <img src="instagram.png"><p>Instagram</p>
+  </div>
+<div class="social">
+<img src="facebook.png"><p>Facebook</p>
+</div>
+<div class="social">
+<img src="gmail.png"><p>Gmail</p>
+</div>
+
+</div>
+</div>
+
+<div class="bottombar">hai</div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
