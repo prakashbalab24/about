@@ -19,6 +19,7 @@ width:130px;
 }
 .frame-border {
    margin-top:-100px;
+   float:left;
    width: 330px;
    height: 600px;
    outline: none;
@@ -46,6 +47,8 @@ background-color:#212121;
 
 }
 .main_footer{
+position:fixed;
+bottom:0;
 height:20px;
 width:100%;
 background-color:#212121;
@@ -58,10 +61,12 @@ background-color:#212121;
     padding:20px;
 }
 .main_body{
+text-align: center;
 height:400px;
-width:600px;
+width:60%;
 float:right;
-margin:60px;
+margin:auto;
+padding:50px;
 
 }
 
